@@ -109,13 +109,13 @@ int main() {
     switch (opcao) {
         case 1:
             printf("Atributo escolhido: População\n");
-            printf("%s: %d habitantes\n", nomePais1, populacao1);
-            printf("%s: %d habitantes\n", nomePais2, populacao2);
+            printf("%s: %d habitantes\n", estado1, populacao1);
+            printf("%s: %d habitantes\n", estado2, populacao2);
 
             if (populacao1 > populacao2) {
-                printf("Resultado: %s venceu!\n", nomePais1);
+                printf("Resultado: %s venceu!\n", estado1);
             } else if (populacao2 > populacao1) {
-                printf("Resultado: %s venceu!\n", nomePais2);
+                printf("Resultado: %s venceu!\n", estado2);
             } else {
                 printf("Resultado: Empate!\n");
             }
@@ -123,13 +123,13 @@ int main() {
 
         case 2:
             printf("Atributo escolhido: Área\n");
-            printf("%s: %.2f km²\n", nomePais1, area1);
-            printf("%s: %.2f km²\n", nomePais2, area2);
+            printf("%s: %.2f km²\n", estado1, area1);
+            printf("%s: %.2f km²\n", estado2, area2);
 
             if (area1 > area2) {
-                printf("Resultado: %s venceu!\n", nomePais1);
+                printf("Resultado: %s venceu!\n", estado1);
             } else if (area2 > area1) {
-                printf("Resultado: %s venceu!\n", nomePais2);
+                printf("Resultado: %s venceu!\n", estado2);
             } else {
                 printf("Resultado: Empate!\n");
             }
@@ -137,13 +137,13 @@ int main() {
 
         case 3:
             printf("Atributo escolhido: PIB\n");
-            printf("%s: %.2f bilhões\n", nomePais1, pib1);
-            printf("%s: %.2f bilhões\n", nomePais2, pib2);
+            printf("%s: %.2f bilhões\n", estado1, pib1);
+            printf("%s: %.2f bilhões\n", estado2, pib2);
 
             if (pib1 > pib2) {
-                printf("Resultado: %s venceu!\n", nomePais1);
+                printf("Resultado: %s venceu!\n", estado1);
             } else if (pib2 > pib1) {
-                printf("Resultado: %s venceu!\n", nomePais2);
+                printf("Resultado: %s venceu!\n", estado2);
             } else {
                 printf("Resultado: Empate!\n");
             }
@@ -151,13 +151,13 @@ int main() {
 
         case 4:
             printf("Atributo escolhido: Pontos turísticos\n");
-            printf("%s: %d\n", nomePais1, pontosTuristicos1);
-            printf("%s: %d\n", nomePais2, pontosTuristicos2);
+            printf("%s: %d\n", estado1, pontosTuristicos1);
+            printf("%s: %d\n", estado2, pontosTuristicos2);
 
             if (pontosTuristicos1 > pontosTuristicos2) {
-                printf("Resultado: %s venceu!\n", nomePais1);
+                printf("Resultado: %s venceu!\n", estado1);
             } else if (pontosTuristicos2 > pontosTuristicos1) {
-                printf("Resultado: %s venceu!\n", nomePais2);
+                printf("Resultado: %s venceu!\n", estado2);
             } else {
                 printf("Resultado: Empate!\n");
             }
@@ -165,13 +165,13 @@ int main() {
 
         case 5:
             printf("Atributo escolhido: Densidade Demográfica\n");
-            printf("%s: %.2f hab/km²\n", nomePais1, densidade1);
-            printf("%s: %.2f hab/km²\n", nomePais2, densidade2);
+            printf("%s: %.2f hab/km²\n", estado1, densidade1);
+            printf("%s: %.2f hab/km²\n", estado2, densidade2);
 
             if (densidade1 < densidade2) {
-                printf("Resultado: %s venceu!\n", nomePais1);
+                printf("Resultado: %s venceu!\n", estado1);
             } else if (densidade2 < densidade1) {
-                printf("Resultado: %s venceu!\n", nomePais2);
+                printf("Resultado: %s venceu!\n", estado2);
             } else {
                 printf("Resultado: Empate!\n");
             }
